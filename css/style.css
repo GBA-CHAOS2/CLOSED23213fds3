@@ -1,5 +1,5 @@
 html {
-  background-color: black;
+  background-image: url('https://raw.githubusercontent.com/GBA-CHAOS2/GBA_EMU_discontinued/main/download.jpg');
   background-size: cover;
 }
 button {
@@ -20,7 +20,7 @@ display: block;overflow: hidden; border-style: inset; border-width: 2px;}
 
 body {
   text-align: center;
-  color: orange;
+  color: blue;
   font-family: "Verdana", Sans-serif;
   font-size: 20px;
 }
