@@ -16,7 +16,7 @@ function base64(data) {
 			var index = 0;
 			var remainder = dataLength % 3;
 			while (data.length % 3 > 0) {
-				//Make sure we don't do fuzzy math in the next loop...
+				//Make sure we don't do fuzzy math in the next loop cuz we dumb idiots
 				data[data.length] = " ";
 			}
 			while (index < dataLength) {

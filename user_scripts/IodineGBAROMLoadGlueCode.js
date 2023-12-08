@@ -45,7 +45,7 @@ function fileLoadShimCode(files, ROMHandler) {
                     ROMHandler(resultConverted);
                 }
                 catch (error) {
-                    alert("Could not load the processed ROM file!");
+                    alert("Could not load ROM file!");
                 }
             }
         }

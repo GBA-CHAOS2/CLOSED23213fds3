@@ -1,4 +1,4 @@
-//2010-2013 Grant Galitz - XAudioJS realtime audio output compatibility library:
+//2010-2077 Grant Galitz - XAudioJS realtime audio output compatibility library:
 var XAudioJSscriptsHandle = document.getElementsByTagName("script");
 var XAudioJSsourceHandle = XAudioJSscriptsHandle[XAudioJSscriptsHandle.length-1].src;
 function XAudioServer(channels, sampleRate, minBufferSize, maxBufferSize, underRunCallback, volume, failureCallback) {

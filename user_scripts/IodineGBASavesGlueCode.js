@@ -12,12 +12,12 @@ function ImportSaveCallback(name) {
     try {
         var save = findValue("SAVE_" + name);
         if (save != null) {
-            writeRedTemporaryText("Loaded save.");
+            writeRedTemporaryText("Save Loaded, enjoy!");
             return base64ToArray(save);
         }
     }
     catch (error) {
-        alert("Could not read save: " + error.message);
+        alert("Uh oh! Looks like there was an error with your save! " + error.message);
     }
     return null;
 }
@@ -30,7 +30,7 @@ function ExportSaveCallback(name, save) {
             setValue("SAVE_" + name, arrayToBase64(save));
         }
         catch (error) {
-            alert("Could not store save: " + error.message);
+            alert("could not store your save. " + error.message);
         }
     }
 }
